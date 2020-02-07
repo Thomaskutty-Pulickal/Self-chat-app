@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.tabley{
+  list-style: none;
+}
+.tableContainer{
+  background-image: url('chatBackground.png');
+}
+.msg_container{
+  max-width: 120px;
+  margin: 10px;
+  padding: 0px;
+  border: 1px solid blue;
+  word-wrap: break-word;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.msg{
+  color: white;
+  max-width: 115px;
+}
+
+.container{
+  margin: 50px auto;
+  height: 500px;
+  max-width: 350px;
+  border: 2px solid green;
+}
+.tableii{
+  margin: 0 auto;
+  height: 350px;
+  max-width: 270px;
+  overflow: auto;
+  /*list-style: none;*/
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
